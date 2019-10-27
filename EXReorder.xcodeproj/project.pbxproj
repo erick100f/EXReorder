@@ -10,10 +10,23 @@
 		A79CB4EF2365E9B700C925BB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A79CB4EE2365E9B700C925BB /* AppDelegate.swift */; };
 		A79CB4F12365E9B700C925BB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A79CB4F02365E9B700C925BB /* SceneDelegate.swift */; };
 		A79CB4F32365E9B700C925BB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A79CB4F22365E9B700C925BB /* ViewController.swift */; };
-		A79CB4F62365E9B700C925BB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A79CB4F42365E9B700C925BB /* Main.storyboard */; };
 		A79CB4F82365E9BE00C925BB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A79CB4F72365E9BE00C925BB /* Assets.xcassets */; };
 		A79CB4FB2365E9BE00C925BB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A79CB4F92365E9BE00C925BB /* LaunchScreen.storyboard */; };
 		A79CB5062365E9BE00C925BB /* EXReorderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A79CB5052365E9BE00C925BB /* EXReorderTests.swift */; };
+		A79CB5192365EBE500C925BB /* EXReorderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A79CB5172365EBE500C925BB /* EXReorderViewController.swift */; };
+		A79CB51A2365EBE500C925BB /* EXReorderViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A79CB5182365EBE500C925BB /* EXReorderViewController.xib */; };
+		A79CB51C2365EC1D00C925BB /* EXReorderPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A79CB51B2365EC1D00C925BB /* EXReorderPresenter.swift */; };
+		A79CB51D2365EC1D00C925BB /* EXReorderPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A79CB51B2365EC1D00C925BB /* EXReorderPresenter.swift */; };
+		A79CB51F2365EC2A00C925BB /* EXReorderService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A79CB51E2365EC2A00C925BB /* EXReorderService.swift */; };
+		A79CB5202365EC2A00C925BB /* EXReorderService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A79CB51E2365EC2A00C925BB /* EXReorderService.swift */; };
+		A79CB5222365EC3600C925BB /* EXReorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = A79CB5212365EC3600C925BB /* EXReorder.swift */; };
+		A79CB5232365EC3600C925BB /* EXReorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = A79CB5212365EC3600C925BB /* EXReorder.swift */; };
+		A79CB5252365EC5200C925BB /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A79CB5242365EC5200C925BB /* String+Extension.swift */; };
+		A79CB5262365EC5200C925BB /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A79CB5242365EC5200C925BB /* String+Extension.swift */; };
+		A79CB5282365EC5D00C925BB /* StringHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = A79CB5272365EC5D00C925BB /* StringHelper.swift */; };
+		A79CB5292365EC5D00C925BB /* StringHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = A79CB5272365EC5D00C925BB /* StringHelper.swift */; };
+		A79CB52C2365ECBB00C925BB /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = A79CB52B2365ECBB00C925BB /* Constants.swift */; };
+		A79CB52D2365ECBB00C925BB /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = A79CB52B2365ECBB00C925BB /* Constants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +51,14 @@
 		A79CB5012365E9BE00C925BB /* EXReorderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EXReorderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A79CB5052365E9BE00C925BB /* EXReorderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EXReorderTests.swift; sourceTree = "<group>"; };
 		A79CB5072365E9BE00C925BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A79CB5172365EBE500C925BB /* EXReorderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EXReorderViewController.swift; sourceTree = "<group>"; };
+		A79CB5182365EBE500C925BB /* EXReorderViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EXReorderViewController.xib; sourceTree = "<group>"; };
+		A79CB51B2365EC1D00C925BB /* EXReorderPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EXReorderPresenter.swift; sourceTree = "<group>"; };
+		A79CB51E2365EC2A00C925BB /* EXReorderService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EXReorderService.swift; sourceTree = "<group>"; };
+		A79CB5212365EC3600C925BB /* EXReorder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EXReorder.swift; sourceTree = "<group>"; };
+		A79CB5242365EC5200C925BB /* String+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
+		A79CB5272365EC5D00C925BB /* StringHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringHelper.swift; sourceTree = "<group>"; };
+		A79CB52B2365ECBB00C925BB /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +100,11 @@
 		A79CB4ED2365E9B700C925BB /* EXReorder */ = {
 			isa = PBXGroup;
 			children = (
+				A79CB5102365EB4100C925BB /* Views */,
+				A79CB5122365EB5F00C925BB /* Presenters */,
+				A79CB5112365EB4B00C925BB /* Services */,
+				A79CB5132365EB7A00C925BB /* Models */,
+				A79CB5142365EB9E00C925BB /* Common */,
 				A79CB4EE2365E9B700C925BB /* AppDelegate.swift */,
 				A79CB4F02365E9B700C925BB /* SceneDelegate.swift */,
 				A79CB4F22365E9B700C925BB /* ViewController.swift */,
@@ -97,6 +123,73 @@
 				A79CB5072365E9BE00C925BB /* Info.plist */,
 			);
 			path = EXReorderTests;
+			sourceTree = "<group>";
+		};
+		A79CB5102365EB4100C925BB /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A79CB5172365EBE500C925BB /* EXReorderViewController.swift */,
+				A79CB5182365EBE500C925BB /* EXReorderViewController.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		A79CB5112365EB4B00C925BB /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				A79CB51E2365EC2A00C925BB /* EXReorderService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		A79CB5122365EB5F00C925BB /* Presenters */ = {
+			isa = PBXGroup;
+			children = (
+				A79CB51B2365EC1D00C925BB /* EXReorderPresenter.swift */,
+			);
+			path = Presenters;
+			sourceTree = "<group>";
+		};
+		A79CB5132365EB7A00C925BB /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A79CB5212365EC3600C925BB /* EXReorder.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		A79CB5142365EB9E00C925BB /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				A79CB52A2365ECA800C925BB /* Constants */,
+				A79CB5152365EBAB00C925BB /* Extensions */,
+				A79CB5162365EBB200C925BB /* Helpers */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		A79CB5152365EBAB00C925BB /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				A79CB5242365EC5200C925BB /* String+Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		A79CB5162365EBB200C925BB /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				A79CB5272365EC5D00C925BB /* StringHelper.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		A79CB52A2365ECA800C925BB /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				A79CB52B2365ECBB00C925BB /* Constants.swift */,
+			);
+			path = Constants;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -182,7 +275,7 @@
 			files = (
 				A79CB4FB2365E9BE00C925BB /* LaunchScreen.storyboard in Resources */,
 				A79CB4F82365E9BE00C925BB /* Assets.xcassets in Resources */,
-				A79CB4F62365E9B700C925BB /* Main.storyboard in Resources */,
+				A79CB51A2365EBE500C925BB /* EXReorderViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -200,9 +293,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A79CB5252365EC5200C925BB /* String+Extension.swift in Sources */,
+				A79CB51C2365EC1D00C925BB /* EXReorderPresenter.swift in Sources */,
 				A79CB4F32365E9B700C925BB /* ViewController.swift in Sources */,
+				A79CB5282365EC5D00C925BB /* StringHelper.swift in Sources */,
+				A79CB51F2365EC2A00C925BB /* EXReorderService.swift in Sources */,
+				A79CB52C2365ECBB00C925BB /* Constants.swift in Sources */,
 				A79CB4EF2365E9B700C925BB /* AppDelegate.swift in Sources */,
 				A79CB4F12365E9B700C925BB /* SceneDelegate.swift in Sources */,
+				A79CB5192365EBE500C925BB /* EXReorderViewController.swift in Sources */,
+				A79CB5222365EC3600C925BB /* EXReorder.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -210,7 +310,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A79CB5292365EC5D00C925BB /* StringHelper.swift in Sources */,
 				A79CB5062365E9BE00C925BB /* EXReorderTests.swift in Sources */,
+				A79CB51D2365EC1D00C925BB /* EXReorderPresenter.swift in Sources */,
+				A79CB5232365EC3600C925BB /* EXReorder.swift in Sources */,
+				A79CB52D2365ECBB00C925BB /* Constants.swift in Sources */,
+				A79CB5262365EC5200C925BB /* String+Extension.swift in Sources */,
+				A79CB5202365EC2A00C925BB /* EXReorderService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
