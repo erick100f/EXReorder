@@ -16,6 +16,5 @@ enum EXReorderStatus {
 struct EXReorder {
     var inn: String
     var out: String?
-//    var isReorder: Bool?
     var status: EXReorderStatus?
 }

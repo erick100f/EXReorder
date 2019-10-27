@@ -18,5 +18,10 @@ struct EXMessagesError {
     static func acending(cut: String) -> String { return "[\(cut)] con consecutivos"}
     
 }
+struct EXMessagesSuccess {
+    static let cool = "😎 Cool"
+}
+
+
 
 let MAX_LENGHT = 10

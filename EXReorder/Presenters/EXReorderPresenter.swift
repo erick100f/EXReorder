@@ -30,7 +30,7 @@ class EXReorderPresenter {
             let out = try service.getReorder(element.inn)
             element.out = out
             element.status = .ok
-            viewDelegate?.success(element: element, message: "😎 Cool")
+            viewDelegate?.success(element: element, message: EXMessagesSuccess.cool)
         }catch EXReorderServiceErrors.isEmpty {
             element.status = .bad
             viewDelegate?.wrong(element: element, message: EXMessagesError.isEmpty)
@@ -43,22 +43,12 @@ class EXReorderPresenter {
         }catch EXReorderServiceErrors.notUnique(let character) {
             element.status = .bad
             viewDelegate?.wrong(element: element, message: EXMessagesError.notUnique(character: character))
-        }catch EXReorderServiceErrors.acending(let range) {
-//            element.status = .bad
-            let srtCut = "33"
-//            let s = "😎🤣😋"
-//            s[0..<1] // "😎"
-            viewDelegate?.wrong(element: element, message: EXMessagesError.acending(cut: srtCut))
+        }catch EXReorderServiceErrors.acending(_) {
+            element.status = .bad
+            viewDelegate?.wrong(element: element, message: EXMessagesError.acending(cut: ""))
         }catch{
             print("Upps")
         }
-        
-//        case isEmpty
-//        case maxLengh
-//        case notOnlyNumbers
-//        //Controlables
-//        case notUnique(character: Character)
-//        case acending(range: ClosedRange<Int>)
     }
     
 }
